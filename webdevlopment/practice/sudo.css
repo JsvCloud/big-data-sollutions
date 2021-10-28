@@ -1,0 +1,25 @@
+
+a:link{
+    color:red;
+    text-decoration: none;
+    word-spacing: 2px;
+    line-height: 2px;
+    text-shadow:2px indigo;
+}
+a:visited{
+    border: 2px solid black;
+    color:orangered;
+    background-color:black;
+}
+a:hover{
+    
+    color:green;
+    
+    text-decoration: none;
+    font-size :1.5em;
+}
+a:active{
+    color:royalblue;
+    border:2px dashed grey;
+}
+/* this is the oreder of link pseudo classes */

@@ -1,0 +1,23 @@
+.links{
+    background-color: rgba(128, 128, 128, 0.616);
+    margin:10px;
+    height:55px;
+    text-align:center;
+}
+.links a{
+    display: inline-block;
+    margin:14px 6px;
+    padding: 2px  2px;
+    color:rgb(95, 93, 93);
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+section h2{
+    margin: 30px 1px;
+}
+hr{
+    margin-top: -30px;
+}
+.container{
+    margin: 10px 25px;
+}

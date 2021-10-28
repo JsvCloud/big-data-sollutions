@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM for searching elements</title>
+<style>
+    body
+    {
+        display: flex;
+        flex-flow:column ;
+        align-items: center;
+        background-color: orange;
+        color :white
+    
+    }
+    button{
+        cursor: pointer;
+    }
+
+
+</style>
+<script>
+    function change(){
+       let a = document.getElementById('heading');
+       a.innerHTML = "Mohit ban gya India"
+    }
+</script>
+</head>
+<body >
+    <p class = "para">this is my first paragraph</p>
+    <p class = "para">Second paragraph</p>
+    <p class = "para">this is Last paragraph</p>
+    <h1 id="heading">Dont be fool get out of comfort zone</h1>
+
+    <button class="button" onclick="change()" > Click Me</button>
+</body>
+</html>
